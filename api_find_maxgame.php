@@ -12,19 +12,22 @@ error
 // FUNCTION
 Read user data
 
+
+
+
 */
 
 
 // Report simple running errors
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
-	
-	
+
+
 	$game_id=$_GET["game_id"];
-	
+
 
 	include('inc_game.php');
-	
-	
+
+
 	$return_data=array();
 	$return_data['game_id']=$game_id;
 	$return_data['status']=find_maxgame($game_id);
