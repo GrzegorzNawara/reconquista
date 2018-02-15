@@ -12,9 +12,6 @@ error
 // FUNCTION
 Read user data
 
-
-
-
 */
 
 
